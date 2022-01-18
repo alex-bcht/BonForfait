@@ -6,18 +6,31 @@ import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
 import android.content.Intent
+import android.graphics.Color
+import android.graphics.Typeface.BOLD
 import androidx.core.app.ComponentActivity
 import androidx.core.app.ComponentActivity.ExtraData
 import android.icu.lang.UCharacter.GraphemeClusterBreak.T
+import android.text.Spannable
+import android.text.SpannableString
+import android.text.style.ForegroundColorSpan
+import android.text.style.RelativeSizeSpan
+import android.text.style.StyleSpan
+import android.text.style.TypefaceSpan
+import android.view.View
+import android.widget.TextView
 import androidx.core.content.ContextCompat.getSystemService
 
 
 
 class MainActivity : AppCompatActivity() {
+    private lateinit var mainFragment: MainFragment;
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        this.configureAndShowMainFragment();
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
@@ -41,5 +54,12 @@ class MainActivity : AppCompatActivity() {
             R.id.forfait_mobile -> true
             else -> super.onOptionsItemSelected(item)
         }*/
+    }
+
+    private fun configureAndShowMainFragment() {
+        mainFragment = MainFragment()
+        supportFragmentManager.beginTransaction()
+            .add(R.id.frame_layout_main, mainFragment)
+            .commit();
     }
 }
