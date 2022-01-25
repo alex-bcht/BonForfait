@@ -4,23 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
-import android.widget.Toast
-import android.content.Intent
-import android.graphics.Color
-import android.graphics.Typeface.BOLD
-import androidx.core.app.ComponentActivity
-import androidx.core.app.ComponentActivity.ExtraData
-import android.icu.lang.UCharacter.GraphemeClusterBreak.T
-import android.text.Spannable
-import android.text.SpannableString
-import android.text.style.ForegroundColorSpan
-import android.text.style.RelativeSizeSpan
-import android.text.style.StyleSpan
-import android.text.style.TypefaceSpan
-import android.view.View
-import android.widget.TextView
-import androidx.core.content.ContextCompat.getSystemService
-
+import android.widget.Button
 
 
 class MainActivity : AppCompatActivity() {
@@ -30,6 +14,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var promosFragment: PromosFragment
     private lateinit var boxFragment: BoxFragment
     private lateinit var internationalFragment: InternationalFragment
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
