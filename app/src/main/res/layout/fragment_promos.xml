@@ -3,12 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".OperatorFragment"
+    tools:context=".PromosFragment"
     android:orientation="vertical"
-    android:id="@+id/linearLayout_frag_operator">
+    android:id="@+id/linearLayout_frag_promos">
 
     <TextView
-        android:id="@+id/operator_main_text"
+        android:id="@+id/promos_main_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"

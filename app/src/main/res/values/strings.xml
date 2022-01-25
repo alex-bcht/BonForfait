@@ -11,14 +11,31 @@
         Trouvez votre nouveau Forfait mobile\n\nNous comparons au quotidien plus de 100 forfaits
         mobile et Box Internet pour vous aider à trouver celui qu\'il vous faut.
     </string>
-    <string name="text_operator" translatable="false">
-        Les opérateurs de téléphonie mobile\n\n
-        S\'il on pense souvent aux quatre principaux opérateurs que sont Orange, SFR, Bouygues
-        et Free, il existe aussi de nombreux « MVNO » dont la notoriété est moindre mais qui
-        proposent des offres commerciales attractives.\n\n
-        Les MVNO ne disposent pas d\'un réseau mobile physique mais louent celui d\'un des quatre
-        grands opérateurs, d\'où l\'appelation d\'opérateur de « réseau virtuel ».
-        Vous pouvez utiliser le filtre ci-dessous pour identifier les réseaux utilisés par chacun des opérateurs.
+    <string name="title_forfait">
+        Comparateur de Forfaits Mobile\n\nTrouvez le forfait mobile qui correspond à vos besoins
+        grâce à notre comparateur de forfaits.Choissisez la quantité de data dont vous avez besoin
+        et filtrez les offres en fonction duréseau mobile utilisé et des options disponibles.
+    </string>
+    <string name="title_box">
+        Comparateur de Box Internet\n\nL\'internet Fixe offre les meilleurs débits et les connexions
+        les plus fiables.Comparez les offres des opérateurs en Fibre optique, ADSL ou Box 4G.
+    </string>
+    <string name="title_promos">
+        Les promos du moment\n\nPour changer d\'opérateur en conservant votre numéro appelez le 3179
+        (appel gratuit) etrécupérez votre RIO.\n\nChoisissez « conserver votre numéro » lors de la
+        souscription et ne résiliez pas vous-mêmele contrat chez l\'ancien opérateur.
+    </string>
+    <string name="title_international">
+        Tarifs internationaux\n\nVous souhaitez appeler un numéro étranger ? Nous regroupons les
+        tarifs de tous les opérateurspour vous permettre d\'y voir plus clair sur les tarifs pratiqués
+    </string>
+    <string name="title_operator" translatable="false">
+        Les opérateurs de téléphonie mobile\n\nS\'il on pense souvent aux quatre principaux
+        opérateurs que sont Orange, SFR, Bouygueset Free, il existe aussi de nombreux « MVNO »
+        dont la notoriété est moindre mais quiproposent des offres commerciales attractives.\n\nLes
+        MVNO ne disposent pas d\'un réseaumobile physique mais louent celui d\'un des quatregrands
+        opérateurs, d\'où l\'appelationd\'opérateur de « réseau virtuel ».Vous pouvez utiliser le
+        filtre ci-dessous pour identifierles réseaux utilisés par chacun des opérateurs.
     </string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

@@ -14,14 +14,17 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 
-class MainFragment : Fragment() {
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
-                              savedInstanceState: Bundle?): View? {
-        val view: View = inflater.inflate(R.layout.fragment_main, container, false)
+class ForfaitFragment : Fragment() {
 
-        Utiles().setMainText(view.findViewById(R.id.resume_app_text),
-            resources.getString(R.string.text_main),
-            "Trouvez votre nouveau Forfait mobile", "Forfait mobile")
+    override fun onCreateView(
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        val view: View = inflater.inflate(R.layout.fragment_forfait, container, false)
+
+        Utiles().setMainText(view.findViewById(R.id.forfait_main_text),
+            resources.getString(R.string.title_forfait),
+            "Comparateur de Forfaits Mobile", "Forfaits Mobile")
 
         return view
     }

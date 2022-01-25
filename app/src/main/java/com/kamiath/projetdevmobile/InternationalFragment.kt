@@ -6,17 +6,17 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 
-class OperatorFragment : Fragment() {
+class InternationalFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val view: View = inflater.inflate(R.layout.fragment_operator, container, false)
+        val view: View = inflater.inflate(R.layout.fragment_international, container, false)
 
-        Utiles().setMainText(view.findViewById(R.id.operator_main_text),
-            resources.getString(R.string.title_operator),
-            "Les opérateurs de téléphonie mobile", "opérateurs")
+        Utiles().setMainText(view.findViewById(R.id.international_main_text),
+            resources.getString(R.string.title_international),
+            "Tarifs internationaux", "internationaux")
 
         return view
     }
