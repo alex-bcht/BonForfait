@@ -1,6 +1,7 @@
 package com.kamiath.projetdevmobile
 
 import android.os.Bundle
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -9,6 +10,11 @@ import android.widget.Button
 import android.widget.ImageView
 
 import com.bumptech.glide.Glide
+import java.io.InputStream
+import java.io.InputStreamReader
+import java.lang.Exception
+import java.net.HttpURLConnection
+import java.net.URL
 
 
 class MainFragment : Fragment() {
@@ -26,9 +32,9 @@ class MainFragment : Fragment() {
         mButton = view.findViewById(com.kamiath.projetdevmobile.R.id.button_mainToforfait);
         mButton.setOnClickListener{this.configureAndShowForfaitFragment()}
 
+        HTTPReqTask().execute()
+
         displayMainImages(view)
-        /*val aq = AQuery(view.context) com.kamiath.projetdevmobile.R.id.img_main_1
-        aq.id(R.id.img_main_1).image("http://www.vikispot.com/z/images/vikispot/android-w.png")*/
 
         return view
     }
